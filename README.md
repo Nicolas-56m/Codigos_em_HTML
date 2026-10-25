@@ -125,3 +125,11 @@
 </body>  
 </html>
 ```
+
+<img src="https://img.shields.io/badge/FEITO NO-%2BVScode-blue">
+
+6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```HTML<h1>```, um parágrafo falando sobre você, um ```HTML<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```HTML<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
+
+```HTML
+
+```
