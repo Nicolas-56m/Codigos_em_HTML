@@ -1,7 +1,7 @@
 # Códigos em HTML - Feitos por mim (para estudo)
 
 ## FASE 1 - Exercícios (Básico)
-<img src="https://img.shields.io/badge/FEITO NO-%2BVScode-red">
+<img src="https://img.shields.io/badge/FEITO NO-VScode-red">
 
 ### 1-) Crie uma página HTML que mostre: Seu nome, sua idade e sua cidade.
 
@@ -127,7 +127,7 @@
 ```
 
 ## FASE 1 - Exercícios (Básico-Intermediário)
-<img src="https://img.shields.io/badge/FEITO NO-%2BVScode-blue">
+<img src="https://img.shields.io/badge/FEITO NO-VScode-blue">
 
 6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```<h1>```, um parágrafo falando sobre você, um ```<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
 
