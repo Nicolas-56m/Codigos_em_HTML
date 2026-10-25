@@ -129,7 +129,7 @@
 ## FASE 1 - Exercícios (Básico-Intermediário)
 <img src="https://img.shields.io/badge/FEITO NO-VScode-blue">
 
-6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```<h1>```, um parágrafo falando sobre você, um ```<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
+### 6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```<h1>```, um parágrafo falando sobre você, um ```<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
 
 ```HTML
 <!DOCTYPE html>  
@@ -160,4 +160,27 @@
   
 </body>  
 </html>
+```
+
+### 7-) Crie uma página sobre seu animal favorito. Ela deve ter: Título, imagem e um parágrafo explicando sobre o animal.
+
+```HTML
+
+```
+
+### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. Continue o exercício 7!.
+
+```HTML
+
+```
+### 9-) Formatação de texto: Crie uma página explicando alguma coisa que você conhece. Você deverá utilizar  ```<strong>```, ```<em>``` e ```<mark>```.
+
+```HMTL
+
+```
+
+### 10-) Tabela. Crie uma tabela com 5 produtos. Ela deverá ter: Produto | Preço | Quantidade. Você precisará aprender: ```<table>```, ```<tr>```, ```<th>``` e ```<td>```.
+
+```HTML
+
 ```
