@@ -165,7 +165,23 @@
 ### 7-) Crie uma página sobre seu animal favorito. Ela deve ter: Título, imagem e um parágrafo explicando sobre o animal.
 
 ```HTML
-
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Animal favorito</title>  
+</head>  
+<body>    
+  
+  <h1>Animal favorito</h1>
+  
+  <img 
+    src="https://media.istockphoto.com/id/1130682008/pt/foto/dog-in-a-field-os-flowers.jpg?s=612x612&w=0&k=20&c=zfX2COrv9IWuoP8uMxHi_RVs3uzADJXzV2GCrHUZzgE="
+    alt="Um cachorro feliz"
+    width="400">
+  
+  <p>Cachorro é um companheiro, dependendo da criação se torna um animal obediente e dócil.</p>
 ```
 
 ### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. Continue o exercício 7!.
