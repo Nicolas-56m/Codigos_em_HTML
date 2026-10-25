@@ -187,7 +187,18 @@
 ### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. Continue o exercício 7!.
 
 ```HTML
-
+  <h2>Características do animal</h2>
+  
+  <ol>
+    <li>Olfato superpoderoso</li>
+    <li>Focinho único</li>
+    <li>Leal e companheiro</li>
+    <li>Inteligência e aprendizado</li>
+    <li>Comunicação corporal</li>
+  </ol>
+  
+</body>  
+</html>
 ```
 ### 9-) Formatação de texto: Crie uma página explicando alguma coisa que você conhece. Você deverá utilizar  ```<strong>```, ```<em>``` e ```<mark>```.
 
