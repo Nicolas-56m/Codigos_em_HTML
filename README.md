@@ -132,5 +132,32 @@
 6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```<h1>```, um parágrafo falando sobre você, um ```<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
 
 ```HTML
-
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Sobre mim</title>  
+</head>  
+<body>    
+  
+  <h1>Sobre mim</h1>
+  
+  <p>Sou estudante do Senai e faço DS</p>
+  
+  <h2>Meus hobbies</h2>
+  
+  <ul>
+    <li>Andar de bike</li>
+    <li>Soltar pipa</li>
+    <li>Programar</li>
+    <li>Ouvir música</li>
+    <li>Assistir filmes e séries</li>
+  </ul>
+  
+  <h2>Meus estudos</h2>
+  <p>Estudo programação e faço atividades</p>
+  
+</body>  
+</html>
 ```
