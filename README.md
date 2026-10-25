@@ -184,7 +184,7 @@
   <p>Cachorro é um companheiro, dependendo da criação se torna um animal obediente e dócil.</p>
 ```
 
-### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. Continue o exercício 7!.
+### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. (Continuação do exercício 7)!.
 
 ```HTML
   <h2>Características do animal</h2>
