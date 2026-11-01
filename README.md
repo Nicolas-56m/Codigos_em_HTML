@@ -393,7 +393,10 @@
     <input type="password" id="senha"><br><br>
 
     <button type="submit">Enviar</button>
+  </form>
   
+</body>
+</html>
 ```
 
 ### 13-) Formulário completo. Pegue o exercício 12 e acrescente idade, telefone, e data de nascimento. Descubra os ```<input>```. (Continuação do exercício 12)!. 
