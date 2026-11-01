@@ -550,7 +550,6 @@
 
     <tr>
       <td>Peças de largura de até *64cm. Peças de altura de até *30cm</td>
-      <td>GamerTech</td>
       <td>Garantia de 24 meses para defeitos</td>
       <td>Não deixá-lo em lugar muito fechado</td>
     </tr>
@@ -664,7 +663,7 @@
     
     <tr>
       <td>Plataforma</td>
-      <td>Android/IOS/PC</td>
+      <td>Android/IOS</td>
     </tr>
     
     <tr>
@@ -715,11 +714,11 @@
   <h4>Títulos</h4>
   <ul>
     <li>Mundial Interclubes - <em>1981</em></li>
-    <li>Campeonato Brasileiro - <em>8 títulos</em></li>
+    <li>Campeonato Brasileiro - <em>9 títulos</em></li>
     <li>Libertadores - <em>1981, 2019, 2022 e 2025</em></li>
     <li>Copa do Brasil - <em>5 títulos</em></li>
     <li>Supercopa do Brasil - <em>2020 e 2021</em></li>
-    <li>Campeonato Carioca - <em>38 títulos</em></li>
+    <li>Campeonato Carioca - <em>40 títulos</em></li>
   </ul>
   
   <p>Os números acima vêm das páginas oficiais do Flamengo</p>
@@ -910,7 +909,7 @@
 
   <h3>Produtos</h3>
 
-  <h6>Mouse Gamer</h6>
+  <h4>Mouse Gamer</h4>
   
   <img src="https://m.media-amazon.com/images/I/51jXq6Nz2SL._AC_UF894,1000_QL80_FMwebp_.jpg" 
     alt="Mouse gamer"
@@ -921,7 +920,7 @@
   
   <button type="button">Adicionar no Carrinho</button><hr>
   
-  <h6>Teclado Mecânico RGB</h6>
+  <h4>Teclado Mecânico RGB</h4>
   
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypQ5NdQs-uD0CdjdaKWb4lklD6ODbiqR9wiv8Atsaww&s=10" 
     alt="Teclado Mecânico RGB"
@@ -932,7 +931,7 @@
   
   <button type="button">Adicionar no Carrinho</button><hr>
   
-  <h6>Headset Gamer</h6>
+  <h4>Headset Gamer</h4>
   
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtKp88YVrcHoSeXBx9--ZVaQjP1KF_A4cmJc3_OJeuFg&s=10" 
     alt="Headset Gamer"
@@ -943,7 +942,7 @@
   
   <button type="button">Adicionar no Carrinho</button><hr>
   
-  <h6>Mousepad Gamer Grande</h6>
+  <h4>Mousepad Gamer Grande</h4>
   
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOQ1k6tW_Ict1JAg9ITjnuzoeyJS9AgvfnzSnrcFPFZg&s=10" 
     alt="Mousepad Gamer Grande"
@@ -954,7 +953,7 @@
   
   <button type="button">Adicionar no Carrinho</button><hr>
   
-  <h6>Webcam Full HD</h6>
+  <h4>Webcam Full HD</h4>
   
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhHcrQQsJ_lSBDEKxg37bSTAYXqosFSFSToDXcleRB9Q&s=10" 
     alt="Webcam Full HD"
@@ -1002,8 +1001,14 @@
     <label for="dtn">Data de nascimento:</label>
     <input type="date" id="dtn"><br><br>
 
-    <label for="cd"><strong>Curso desejado (Desenvolvimento de Sistemas):</strong></label>
-    <input type="text" placeholder="Digite (Sim ou Não)" id="cd"><br><br>
+    <label for="curso">Curso desejado:</label>
+
+    <select id="curso" name="curso">
+      <option value="">Selecione</option>
+      <option value="ds">Desenvolvimento de          Sistemas</option>
+      <option value="adm">Administração</option>
+      <option value="eletronica">Eletrônica</option>
+    </select>
     
     <p><strong>Linguagens que conhece:</strong></p>
 
