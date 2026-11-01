@@ -442,7 +442,75 @@
 ### 14-) Escolhas. Pegue o formulário do exercício 13 e acrescente: Sexo. Utilize rádio. Linguagens que você conhece: utilize checkbox,  estado: utilize um ```<select>``` com pelo menos 5 estados.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro completo</title>
+</head>
+<body>
 
+  <h1>Cadastro</h1>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha"><br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" min="0" max="100"><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone"><br><br>
+
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" id="nascimento"><br>
+
+    <p><strong>Sexo:</strong></p>
+
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" id="feminino" name="sexo" value="feminino">
+    <label for="feminino">Feminino</label><br><br>
+
+    <p><strong>Linguagens que você conhece:</strong></p>
+
+    <input type="checkbox" id="html" name="linguagens" value="html">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="linguagens" value="css">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="linguagens" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+
+    <input type="checkbox" id="python" name="linguagens" value="Python">
+    <label for="python">Python</label><br><br>
+
+    <label for="estado"><strong>Estado:</strong></label>
+
+    <select id="estado" name="estado">
+      <option value="">Selecione seu estado</option>
+      <option value="sp">São Paulo</option>
+      <option value="rj">Rio de Janeiro</option>
+      <option value="mg">Minas Gerais</option>
+      <option value="ba">Bahia</option>
+      <option value="pr">Paraná</option>
+      <option value="sc">Santa Catarina</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
 ```
 
 ### 15-) Página do produto. Agora crie uma página para um produto, imagem, descrição, preço, lista com características, tabela com informações, link e botão. 
