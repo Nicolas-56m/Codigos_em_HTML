@@ -203,7 +203,30 @@
 ### 9-) Formatação de texto: Crie uma página explicando alguma coisa que você conhece. Você deverá utilizar  ```<strong>```, ```<em>``` e ```<mark>```.
 
 ```HMTL
-
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Formatação de texto</title>  
+</head>  
+<body>    
+  
+  <h1>Computador</h1>
+  
+  <p>
+    <strong>Memória RAM,</strong>
+    <strong>Memória SSD,</strong>
+  
+    <em>Monitor Gamer,</em>
+    <em>Gabinete,</em>
+  
+    <mark>Placa-Mãe,</mark>
+    <mark>Processador.</mark>
+  </p>
+  
+</body>  
+</html>
 ```
 
 ### 10-) Tabela. Crie uma tabela com 5 produtos. Ela deverá ter: Produto | Preço | Quantidade. Você precisará aprender: ```<table>```, ```<tr>```, ```<th>``` e ```<td>```.
