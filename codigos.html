@@ -1,7 +1,7 @@
 # Códigos em HTML - Feitos por mim (para estudo)
 
 ## FASE 1 - Exercícios (Básico)
-<img src="https://img.shields.io/badge/FEITO NO-%2BVScode-red">
+<img src="https://img.shields.io/badge/FEITO NO-VScode-red">
 
 ### 1-) Crie uma página HTML que mostre: Seu nome, sua idade e sua cidade.
 
@@ -125,3 +125,709 @@
 </body>  
 </html>
 ```
+
+## FASE 2 - Exercícios (Básico-Intermediário)
+<img src="https://img.shields.io/badge/FEITO NO-VScode-blue">
+
+### 6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```<h1>```, um parágrafo falando sobre você, um ```<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
+
+```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Sobre mim</title>  
+</head>  
+<body>    
+  
+  <h1>Sobre mim</h1>
+  
+  <p>Sou estudante do Senai e faço DS</p>
+  
+  <h2>Meus hobbies</h2>
+  
+  <ul>
+    <li>Andar de bike</li>
+    <li>Soltar pipa</li>
+    <li>Programar</li>
+    <li>Ouvir música</li>
+    <li>Assistir filmes e séries</li>
+  </ul>
+  
+  <h2>Meus estudos</h2>
+  <p>Estudo programação e faço atividades</p>
+  
+</body>  
+</html>
+```
+
+### 7-) Crie uma página sobre seu animal favorito. Ela deve ter: Título, imagem e um parágrafo explicando sobre o animal.
+
+```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Animal favorito</title>  
+</head>  
+<body>    
+  
+  <h1>Animal favorito</h1>
+  
+  <img 
+    src="https://media.istockphoto.com/id/1130682008/pt/foto/dog-in-a-field-os-flowers.jpg?s=612x612&w=0&k=20&c=zfX2COrv9IWuoP8uMxHi_RVs3uzADJXzV2GCrHUZzgE="
+    alt="Um cachorro feliz"
+    width="400">
+  
+  <p>Cachorro é um companheiro, dependendo da criação se torna um animal obediente e dócil.</p>
+  
+</body>
+</html>
+```
+
+### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. (Continuação do exercício 7)!.
+
+```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Animal favorito</title>  
+</head>  
+<body>    
+  
+  <h1>Animal favorito</h1>
+  
+  <img 
+    src="https://media.istockphoto.com/id/1130682008/pt/foto/dog-in-a-field-os-flowers.jpg?s=612x612&w=0&k=20&c=zfX2COrv9IWuoP8uMxHi_RVs3uzADJXzV2GCrHUZzgE="
+    alt="Um cachorro feliz"
+    width="400">
+  
+  <p>Cachorro é um companheiro, dependendo da criação se torna um animal obediente e dócil.</p>
+
+  <h2>Características do animal</h2>
+  
+  <ol>
+    <li>Olfato superpoderoso</li>
+    <li>Focinho único</li>
+    <li>Leal e companheiro</li>
+    <li>Inteligência e aprendizado</li>
+    <li>Comunicação corporal</li>
+  </ol>
+  
+</body>  
+</html>
+```
+### 9-) Formatação de texto: Crie uma página explicando alguma coisa que você conhece. Você deverá utilizar  ```<strong>```, ```<em>``` e ```<mark>```.
+
+```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Formatação de texto</title>  
+</head>  
+<body>    
+  
+  <h1>Computador</h1>
+  
+  <p>
+    <strong>Memória RAM,</strong>
+    <strong>Memória SSD,</strong>
+  
+    <em>Monitor Gamer,</em>
+    <em>Gabinete,</em>
+  
+    <mark>Placa-Mãe,</mark>
+    <mark>Processador.</mark>
+  </p>
+  
+</body>  
+</html>
+```
+
+### 10-) Tabela. Crie uma tabela com 5 produtos. Ela deverá ter: Produto | Preço | Quantidade. Você precisará aprender: ```<table>```, ```<tr>```, ```<th>``` e ```<td>```.
+
+```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Tabela</title>  
+</head>  
+<body>    
+  
+  <h1>Tabela de produtos</h1>
+  
+  <table>
+    <tr>
+      <th>Produto</th>
+      <th>Preço</th>
+      <th>Quantidade</th>
+    </tr>
+    
+    <tr>
+      <td>Mouse</td>
+      <td>R$ 50,00</td>
+      <td>2</td>
+    </tr>
+     
+    <tr>
+      <td>Teclado</td>
+      <td>R$ 80,00</td>
+      <td>4</td>
+    </tr>
+     
+    <tr>
+      <td>Monitor</td>
+      <td>R$ 500,00</td>
+      <td>12</td>
+    </tr>
+     
+    <tr>
+      <td>Gabinete</td>
+      <td>R$ 100,00</td>
+      <td>18</td>
+    </tr>
+    
+    <tr>
+      <td>Processador</td>
+      <td>R$ 700,00</td>
+      <td>7</td>
+    </tr>
+  </table>
+  
+</body>  
+</html>
+```
+
+### 11-) Tabelas de alunos. Crie uma tabela chamada "Notas dos alunos". Colunas: Nome | Nota 1 | Nota 2 | Média. Cadastre 5 alunos fictícios. Use a estrutura do ex 5.
+
+```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Tabela de alunos</title>  
+</head>  
+<body>    
+  
+  <h1>Notas dos alunos</h1>
+  
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Nota 1</th>
+      <th>Nota 2</th>
+      <th>Média</th>
+    </tr>
+    
+    <tr>
+      <td>Gabriel</td>
+      <td>5</td>
+      <td>4</td>
+      <td>4,5</td>
+    </tr>
+     
+    <tr>
+      <td>Júlia</td>
+      <td>9</td>
+      <td>10</td>
+      <td>9,5</td>
+    </tr>
+     
+    <tr>
+      <td>Rafaela</td>
+      <td>10</td>
+      <td>7</td>
+      <td>8,5</td>
+    </tr>
+     
+    <tr>
+      <td>Mateus</td>
+      <td>8</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    
+    <tr>
+      <td>Zézão</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+  </table>
+  
+</body>  
+</html>
+```
+
+### 12-) Formulário Básico. Crie uma página chamada "Cadastro". Ela deve pedir: Nome, e-mail, senha e um botão enviar. Use ```<form>```, ```<label>```, ```<input>``` e ```<button>```.
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
+
+  <h1>Cadastro</h1>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha"><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+  
+</body>
+</html>
+```
+
+### 13-) Formulário completo. Pegue o exercício 12 e acrescente idade, telefone, e data de nascimento. Descubra os ```<input>```. (Continuação do exercício 12)!. 
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
+
+  <h1>Cadastro</h1>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha"><br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade"><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone"><br><br>
+
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" id="nascimento"><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+  
+</body>
+</html>
+```
+
+### 14-) Escolhas. Pegue o formulário do exercício 13 e acrescente: Sexo. Utilize rádio. Linguagens que você conhece: utilize checkbox,  estado: utilize um ```<select>``` com pelo menos 5 estados.
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro completo</title>
+</head>
+<body>
+
+  <h1>Cadastro</h1>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha"><br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" min="0" max="100"><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone"><br><br>
+
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" id="nascimento"><br>
+
+    <p><strong>Sexo:</strong></p>
+
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" id="feminino" name="sexo" value="feminino">
+    <label for="feminino">Feminino</label><br><br>
+
+    <p><strong>Linguagens que você conhece:</strong></p>
+
+    <input type="checkbox" id="html" name="linguagens" value="html">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="linguagens" value="css">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="linguagens" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+
+    <input type="checkbox" id="python" name="linguagens" value="Python">
+    <label for="python">Python</label><br><br>
+
+    <label for="estado"><strong>Estado:</strong></label>
+
+    <select id="estado" name="estado">
+      <option value="">Selecione seu estado</option>
+      <option value="sp">São Paulo</option>
+      <option value="rj">Rio de Janeiro</option>
+      <option value="mg">Minas Gerais</option>
+      <option value="ba">Bahia</option>
+      <option value="pr">Paraná</option>
+      <option value="sc">Santa Catarina</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
+```
+
+### 15-) Página do produto. Agora crie uma página para um produto, imagem, descrição, preço, lista com características, tabela com informações, link e botão. 
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produto</title>
+</head>
+<body>
+
+  <h1>Compra</h1>
+  
+  <h3>Gabinete Gamer</h3>
+
+  <img
+    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSYEKSWN1aWYCkgy5jM0AVtfdZC35ruvfI93QTacX2BRzqhH6Y8isRat1ZJvSjwRn5VNzMbcekw0kce2v8wjf17-EXyMqk0D1ebdR7HEkSke3yrtwkKBZfeoClFyzHHjfoNTRAfMDc0WQc&usqp=CAc"
+    alt="Gabinete Gamer Branco"
+    width="400">
+
+  <p>Gabinete Gamer Branco para PC com 4 ventoinhas RGB (3 na frente e 1 atrás).</p>
+  <p><em><strong>R$ 182,21</strong></em></p>
+
+  <ul>
+    <li>Gabinete Gamer</li>
+    <li>Cor Branco</li>
+    <li>L * 65cm, AL * 50cm</li>
+    <li>Vidros laterais</li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Compartimento</th>
+      <th>Garantia</th>
+      <th>Recomendações</th>
+    </tr>
+
+    <tr>
+      <td>Peças de largura de até *64cm. Peças de altura de até *30cm</td>
+      <td>GamerTech</td>
+      <td>Garantia de 24 meses para defeitos</td>
+      <td>Não deixá-lo em lugar muito fechado</td>
+    </tr>
+  </table>
+
+  <a href="https://www.mercadolivre.com.br/up/MLBU4912537356?matt_tool=38524122&pdp_filters=item_id:MLB7487386522&ua=ooNq45mCUm4zbQM82t26-AlAVykb1B8t710I5-Cfx_I_6Emi#origin=share&sid=share&wid=MLB7487386522&action=copy">Gabinete Gamer Branco</a><br><br>
+
+  <button type="button">Adicionar no Carrinho</button>
+
+</body>
+</html>
+```
+
+### 16-) Página de filme. Crie uma página sobre um filme. Com título, imagem, descrição, ano, gênero, lista com personagens e link.
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filme</title>
+</head>
+<body>
+
+  <h1>Filme</h1>
+  <h2>Pânico 2</h2>
+
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZGjwvkYr8Oq9YtKwAbLYSLksrKaFBDOVQPGkd0n_7TA&s=10"
+    alt="Capa do filme"
+    width="400">
+
+  <p>
+    Pânico 2 é um filme de terror slasher lançado em 1997 dirigido por Wes Craven e escrito por Kevin Williamson.
+  </p>
+
+  <p><strong>Ano de lançamento:</strong> 1997</p>
+  <p><strong>Gênero(s):</strong> Terror e Suspense</p>
+
+  <ul>
+    <li>Sidney Prescott <em>(Protagonista)</em></li>
+    <li>Gale Weathers</li>
+    <li>Dewey Riley</li>
+    <li>Randy Meeks</li>
+    <li>Cotton Weary</li>
+  </ul>
+  
+  <form>
+    <input type="radio" id="p" name="filme" value="p">
+    <label for="p">Paramount</label>
+    
+    <input type="radio" id="pv" name="filme" value="pv">
+    <label for="pv">Prime Video</label>
+  </form><br>
+
+  <a href="https://play.google.com/store/apps/details?id=com.cbs.ca">Paramount+</a>
+  <a href="https://www.netflix.com/br/title/1181550?preventIntent=true&source=35&fromWatch=true">Netflix</a>
+</body>
+</html>
+```
+
+## FASE 3 - Exercícios (Básico-Difícil)
+<img src="https://img.shields.io/badge/FEITO NO-VScode-orange">
+
+### 17-) Página de jogo. Crie uma página sobre um jogo. Inclua: Nome, imagem, descrição, requisitos, listas de características, tabelas de informações e link para o site oficial.
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Free Fire</title>
+</head>
+<body>
+
+  <h1>Free Fire</h1>
+
+  <img
+    src="https://escolaeducacao.com.br/wp-content/uploads/2021/08/ff-capa.jpg"
+    alt="Capa de carregamento antiga de jogo"
+    width="400">
+
+  <h4>Descrição do jogo</h4>
+  <p>Jogo de batalha online para celular com partidas de aproximadamente 10 minutos, tendo de exemplo os modos de jogo com Battle Royale e Contra Squad.</p>
+
+  <h4>Características</h4>
+  
+  <ol>
+    <li>Battle Royale</li>
+    <li>Contra Squad</li>
+    <li>Partidas rápidas</li>
+    <li>Personagens</li>
+    <li>Free Fire MAX</li>
+  </ol>
+
+  <h4>Tabela de informações</h4>
+
+  <table>
+    <tr>
+      <th>Informação</th>
+      <th>Dado</th>
+    </tr>
+    
+    <tr>
+      <td>Desenvolvedora</td>
+      <td>Garena</td>
+    </tr>
+    
+    
+    <tr>
+      <td>Plataforma</td>
+      <td>Android/IOS/PC</td>
+    </tr>
+    
+    <tr>
+      <td>Gênero</td>
+      <td>Battle Royale</td>
+    </tr>
+    
+    <tr>
+      <td>Modelo</td>
+      <td>Gratuito para jogar</td>
+    </tr>
+  </table><br>
+
+  <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth">Link Oficil do Jogo</a>
+
+</body>
+</html>
+```
+
+### 18-) Página de time. Crie uma página sobre um time de futebol. Inclua: Nome, escudo/imagem, descrição, títulos, jogadores, tabelas com informações e links.
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time de futebol</title>
+</head>
+<body>
+
+  <h1>Clube de Regatas do Flamengo</h1>
+
+  <img
+    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAXiZ1Y77SwL-wwBsvSZhVJbTd9jgOs_ZiPLMo_0zChmHkPUv5F-4Gu7hfWrhuD2AFVLjFKhJwCY6CbR2dYsb_vZlBroCZHg9-sVkBPw1qqRok2SUNdmWuxbWf-JshzaztPuGb0XyfBw&usqp=CAc"
+    alt="Escudo do Flamengo"
+    width="400">
+
+  <h3>Descrição</h3>
+  
+  <ul>
+    <li>Clube brasileiro do Rio de Janeiro</li>
+    <li>Fundado em 1895</li>
+    <li>Conhecidos pelas cores <strong>vermelho e preto</strong></li>
+    <li>Começou como clube de remo e posteriormente entrou no futebol</li>
+  </ul>
+  
+  <h4>Títulos</h4>
+  <ul>
+    <li>Mundial Interclubes - <em>1981</em></li>
+    <li>Campeonato Brasileiro - <em>8 títulos</em></li>
+    <li>Libertadores - <em>1981, 2019, 2022 e 2025</em></li>
+    <li>Copa do Brasil - <em>5 títulos</em></li>
+    <li>Supercopa do Brasil - <em>2020 e 2021</em></li>
+    <li>Campeonato Carioca - <em>38 títulos</em></li>
+  </ul>
+  
+  <p>Os números acima vêm das páginas oficiais do Flamengo</p>
+
+  <h2>Jogadores</h2>
+  <p>O elenco oficial lista esses jogadores entre os atuais</p>
+  
+  <ol>
+    <li>Rossi</li>
+    <li>Varela</li>
+    <li>Alex Sandro</li>
+    <li>Léo Ortiz</li>
+    <li>De La Cruz</li>
+    <li>Luiz Lino</li>
+    <li>De Arrascaeta</li>
+    <li>Bruno Henrique</li>
+    <li>Pedro</li>
+    <li>Luiz Araújo</li>
+  </ol>
+
+  <table>
+    <tr>
+      <th>Informação</th>
+      <th>Dado</th>
+    </tr>
+    
+    <tr>
+      <td>Nome</td>
+      <td>Clube de Regatas do Flamengo</td>
+    </tr>
+    
+    <tr>
+      <td>Fundação</td>
+      <td><em>1895</em></td>
+    </tr>
+    
+    <tr>
+      <td>Estádio</td>
+      <td>Maracanã</td>
+    </tr>
+    
+    <tr>
+      <td>Apelidos</td>
+      <td>Mengão/Rubo Negro</td>
+    </tr>
+  </table>
+
+  <h5>Links</h5>
+
+  <a href="https://www.flamengo.com.br/">Site oficial</a>
+  <a href="https://www.flamengo.com.br/clube/titulos">Títulos</a>
+
+</body>
+</html>
+```
+
+### 19-) Página de restaurante. Crie uma página para um restaurante. Inclua: Nome, Imagem, descrição, cardápio, preços, tabela, endereço fictício e fórmula de reserva.
+
+```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante</title>
+</head>
+<body>
+
+  <h1>Restaurante Cantina Bella Massa</h1>
+
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgUnRQKKR0HUPvEldCkcsOHdehwAcWhjN2NdteiNslg&s=10"
+    alt="Dentro do restaurante"
+    width="400">
+
+  <h3>Descrição</h3>
+
+  <ul>
+    <li>Criador: <strong>Marco Bellinu</strong></li>
+    <li>Ano de criação: <strong><em>2018</em></strong></li>
+    <li>Restaurante especializado em culinária italiana</li>
+    <li>Pratos principais: massas, pizzas, e sobremesas</li>
+    <li>Ambiente familiar e atendimento no local</li>
+  </ul>
+  
+  <h3>Cardápio</h3>
+  
+  <table>
+    <tr>
+      <th>Prato</th>
+      <th>Categoria</th>
+      <th>Preço</th>
+    </tr>
+    
+    <tr>
+      <td>Pizza Margherita</td>
+      <td>Pizza</td>
+      <td>R$ 39,90</td>
+    </tr>
+    
+    <tr>
+      <td>Pizza Calabresa</td>
+      <td>Pizza</td>
+      <td>R$ 42,90</td>
+    </tr>
+    
+    <tr>
+      <td>Lasanha à 
