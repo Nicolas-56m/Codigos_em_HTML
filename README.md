@@ -690,7 +690,93 @@
 ### 18-) Página de time. Crie uma página sobre um time de futebol. Inclua: Nome, escudo/imagem, descrição, títulos, jogadores, tabelas com informações e links.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time de futebol</title>
+</head>
+<body>
 
+  <h1>Clube de Regatas do Flamengo</h1>
+
+  <img
+    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPAXiZ1Y77SwL-wwBsvSZhVJbTd9jgOs_ZiPLMo_0zChmHkPUv5F-4Gu7hfWrhuD2AFVLjFKhJwCY6CbR2dYsb_vZlBroCZHg9-sVkBPw1qqRok2SUNdmWuxbWf-JshzaztPuGb0XyfBw&usqp=CAc"
+    alt="Escudo do Flamengo"
+    width="400">
+
+  <h3>Descrição</h3>
+  
+  <ul>
+    <li>Clube brasileiro do Rio de Janeiro</li>
+    <li>Fundado em 1895</li>
+    <li>Conhecidos pelas cores <strong>vermelho e preto</strong></li>
+    <li>Começou como clube de remo e posteriormente entrou no futebol</li>
+  </ul>
+  
+  <h4>Títulos</h4>
+  <ul>
+    <li>Mundial Interclubes - <em>1981</em></li>
+    <li>Campeonato Brasileiro - <em>8 títulos</em></li>
+    <li>Libertadores - <em>1981, 2019, 2022 e 2025</em></li>
+    <li>Copa do Brasil - <em>5 títulos</em></li>
+    <li>Supercopa do Brasil - <em>2020 e 2021</em></li>
+    <li>Campeonato Carioca - <em>38 títulos</em></li>
+  </ul>
+  
+  <p>Os números acima vêm das páginas oficiais do Flamengo</p>
+
+  <h2>Jogadores</h2>
+  <p>O elenco oficial lista esses jogadores entre os atuais</p>
+  
+  <ol>
+    <li>Rossi</li>
+    <li>Varela</li>
+    <li>Alex Sandro</li>
+    <li>Léo Ortiz</li>
+    <li>De La Cruz</li>
+    <li>Luiz Lino</li>
+    <li>De Arrascaeta</li>
+    <li>Bruno Henrique</li>
+    <li>Pedro</li>
+    <li>Luiz Araújo</li>
+  </ol>
+
+  <table>
+    <tr>
+      <th>Informação</th>
+      <th>Dado</th>
+    </tr>
+    
+    <tr>
+      <td>Nome</td>
+      <td>Clube de Regatas do Flamengo</td>
+    </tr>
+    
+    <tr>
+      <td>Fundação</td>
+      <td><em>1895</em></td>
+    </tr>
+    
+    <tr>
+      <td>Estádio</td>
+      <td>Maracanã</td>
+    </tr>
+    
+    <tr>
+      <td>Apelidos</td>
+      <td>Mengão/Rubo Negro</td>
+    </tr>
+  </table>
+
+  <h5>Links</h5>
+
+  <a href="https://www.flamengo.com.br/">Site oficial</a>
+  <a href="https://www.flamengo.com.br/clube/titulos">Títulos</a>
+
+</body>
+</html>
 ```
 
 ### 19-) Página de restaurante. Crie uma página para um restaurante. Inclua: Nome, Imagem, descrição, cardápio, preços, tabela, endereço fictício e fórmula de reserva.
