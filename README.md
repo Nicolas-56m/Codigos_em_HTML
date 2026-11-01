@@ -644,7 +644,7 @@
 ```
 
 
-###$ 21-) Página de cadastro de curso. Crie uma página para inscrição em um curso. O formulário deve pedir: nome, email, idade, telefone, data de nascimento, curso desejado, turno, linguagens que conhece e botão de envio.
+### 21-) Página de cadastro de curso. Crie uma página para inscrição em um curso. O formulário deve pedir: nome, email, idade, telefone, data de nascimento, curso desejado, turno, linguagens que conhece e botão de envio.
 
 ```HTML
 
