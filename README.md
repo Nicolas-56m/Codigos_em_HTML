@@ -288,7 +288,63 @@
 ### 11-) Tabelas de alunos. Crie uma tabela chamada "Notas dos alunos". Colunas: Nome | Nota 1 | Nota 2 | Média. Cadastre 5 alunos fictícios. Use a estrutura do ex 5.
 
 ```HTML
-
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Tabela de alunos</title>  
+</head>  
+<body>    
+  
+  <h1>Notas dos alunos</h1>
+  
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Nota 1</th>
+      <th>Nota 2</th>
+      <th>Média</th>
+    </tr>
+    
+    <tr>
+      <td>Gabriel</td>
+      <td>5</td>
+      <td>4</td>
+      <td>4,5</td>
+    </tr>
+     
+    <tr>
+      <td>Júlia</td>
+      <td>9</td>
+      <td>10</td>
+      <td>9,5</td>
+    </tr>
+     
+    <tr>
+      <td>Rafaela</td>
+      <td>10</td>
+      <td>7</td>
+      <td>8,5</td>
+    </tr>
+     
+    <tr>
+      <td>Mateus</td>
+      <td>8</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    
+    <tr>
+      <td>Zézão</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+  </table>
+  
+</body>  
+</html>
 ```
 
 ### 12-) Formulário Básico. Crie uma página chamada "Cadastro". Ela deve pedir: Nome, e-mail, senha e um botão enviar. Use ```<form>```, ```<label>```, ```<input>``` e ```<button>```.
