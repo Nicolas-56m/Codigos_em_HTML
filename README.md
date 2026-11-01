@@ -202,7 +202,7 @@
 ```
 ### 9-) Formatação de texto: Crie uma página explicando alguma coisa que você conhece. Você deverá utilizar  ```<strong>```, ```<em>``` e ```<mark>```.
 
-```HMTL
+```HTML
 <!DOCTYPE html>  
 <html lang="pt-BR">  
 <head>  
@@ -272,6 +272,12 @@
       <td>Gabinete</td>
       <td>R$ 100,00</td>
       <td>18</td>
+    </tr>
+    
+    <tr>
+      <td>Processador</td>
+      <td>R$ 700,00</td>
+      <td>7</td>
     </tr>
   </table>
   
