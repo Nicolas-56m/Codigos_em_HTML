@@ -782,7 +782,118 @@
 ### 19-) Página de restaurante. Crie uma página para um restaurante. Inclua: Nome, Imagem, descrição, cardápio, preços, tabela, endereço fictício e fórmula de reserva.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante</title>
+</head>
+<body>
 
+  <h1>Restaurante Cantina Bella Massa</h1>
+
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgUnRQKKR0HUPvEldCkcsOHdehwAcWhjN2NdteiNslg&s=10"
+    alt="Dentro do restaurante"
+    width="400">
+
+  <h3>Descrição</h3>
+
+  <ul>
+    <li>Criador: <strong>Marco Bellinu</strong></li>
+    <li>Ano de criação: <strong><em>2018</em></strong></li>
+    <li>Restaurante especializado em culinária italiana</li>
+    <li>Pratos principais: massas, pizzas, e sobremesas</li>
+    <li>Ambiente familiar e atendimento no local</li>
+  </ul>
+  
+  <h3>Cardápio</h3>
+  
+  <table>
+    <tr>
+      <th>Prato</th>
+      <th>Categoria</th>
+      <th>Preço</th>
+    </tr>
+    
+    <tr>
+      <td>Pizza Margherita</td>
+      <td>Pizza</td>
+      <td>R$ 39,90</td>
+    </tr>
+    
+    <tr>
+      <td>Pizza Calabresa</td>
+      <td>Pizza</td>
+      <td>R$ 42,90</td>
+    </tr>
+    
+    <tr>
+      <td>Lasanha à Bolonhesa</td>
+      <td>Massa</td>
+      <td>R$ 38,90</td>
+    </tr>
+    
+    <tr>
+      <td>Espaguete à Bolonhesa</td>
+      <td>Massa</td>
+      <td>R$ 34,90</td>
+    </tr>
+    
+    <tr>
+      <td>Nhoque ao Molho</td>
+      <td>Massa</td>
+      <td>R$ 36,90</td>
+    </tr>
+    
+    <tr>
+      <td>Tiramisa</td>
+      <td>Sobremesa</td>
+      <td>R$ 18,90</td>
+    </tr>
+    
+    <tr>
+      <td>Pudim</td>
+      <td>Sobremesa</td>
+      <td>R$ 12,90</td>
+    </tr>
+  </table>
+  
+  <h4>Endereço</h4>
+  <p><strong>Cidade:</strong> Campinas-SP, <strong>Bairro: </strong>Cambuí, <strong>Rua/AV:</strong> Avenida Coronel Silva Telles, 514, <strong>CEP: </strong>13024-001</p>
+
+
+  <h2>Formulário de reserva</h2>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="tel">Telefone:</label>
+    <input type="tel" id="tel"><br><br>
+
+    <label for="dtr">Data de reserva:</label>
+    <input type="date" id="dtr"><br><br>
+
+    <label for="qdp">Quantidade de pessoas:</label>
+    <input type="number" id="qdp"><br><br>
+    
+    <select id="mesa">
+      <option value="">Selecionar mesa</option>
+      <option value="mc">Mesa comum</option>
+      <option value="mf">Mesa para família</option>
+      <option value="ae">Área externa</option>
+    </select><br><br>
+
+    <button type="submit">Reservar mesa</button>
+  </form>
+
+</body>
+</html>
 ```
 
 ### 20-) Página de loja. Crie uma página de uma loja. Inclua pelo menos 5 produtos. Cada produto deve possuir: nome, imagem, descrição, preço e botão.
