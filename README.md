@@ -618,3 +618,58 @@
 
 ## FASE 3 - Exercícios (Básico-Difícil)
 <img src="https://img.shields.io/badge/FEITO NO-VScode-orange">
+
+### 17-) Página de jogo. Crie uma página sobre um jogo. Inclua: Nome, imagem, descrição, requisitos, listas de características, tabelas de informações e link para o site oficial.
+
+```HTML
+
+```
+
+### 18-) Página de time. Crie uma página sobre um time de futebol. Inclua: Nome, escudo/imagem, descrição, títulos, jogadores, tabelas com informações e links.
+
+```HTML
+
+```
+
+### 19-) Página de restaurante. Crie uma página para um restaurante. Inclua: Nome, Imagem, descrição, cardápio, preços, tabela, endereço fictício e fórmula de reserva.
+
+```HTML
+
+```
+
+### 20-) Página de loja. Crie uma página de uma loja. Inclua pelo menos 5 produtos. Cada produto deve possuir: nome, imagem, descrição, preço e botão.
+
+```HTML
+
+```
+
+
+###$ 21-) Página de cadastro de curso. Crie uma página para inscrição em um curso. O formulário deve pedir: nome, email, idade, telefone, data de nascimento, curso desejado, turno, linguagens que conhece e botão de envio.
+
+```HTML
+
+```
+
+### 22-) Currículo. Crie uma página HTML representando um currículo. Inclua: nome, objetivo, formação, cursos, habilidades, conhecimentos, experiência e contato.
+
+```HTML
+
+```
+
+### 23-) Página de escola. Crie uma página para uma escola fictícia. Inclua: nome da escola, apresentação, cursos, professores, horários, tabela, formulário de contato e links.
+
+```HTML
+
+```
+
+### 24-) Página completa. Crie uma página sobre qualquer assunto que você quiser. Usar todas as tags anteriores.
+
+```HTML
+
+```
+
+### 25-) Agora faça uma página inteira sozinho. De qualquer tema, com as tags utilizadas.
+
+```HTML
+
+```
