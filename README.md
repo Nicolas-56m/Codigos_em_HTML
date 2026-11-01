@@ -570,7 +570,51 @@
 ### 16-) Página de filme. Crie uma página sobre um filme. Com título, imagem, descrição, ano, gênero, lista com personagens e link.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filme</title>
+</head>
+<body>
 
+  <h1>Filme</h1>
+  <h2>Pânico 2</h2>
+
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZGjwvkYr8Oq9YtKwAbLYSLksrKaFBDOVQPGkd0n_7TA&s=10"
+    alt="Capa do filme"
+    width="400">
+
+  <p>
+    Pânico 2 é um filme de terror slasher lançado em 1997 dirigido por Wes Craven e escrito por Kevin Williamson.
+  </p>
+
+  <p><strong>Ano de lançamento:</strong> 1997</p>
+  <p><strong>Gênero(s):</strong> Terror e Suspense</p>
+
+  <ul>
+    <li>Sidney Prescott <em>(Protagonista)</em></li>
+    <li>Gale Weathers</li>
+    <li>Dewey Riley</li>
+    <li>Randy Meeks</li>
+    <li>Cotton Weary</li>
+  </ul>
+  
+  <form>
+    <input type="radio" id="p" name="filme" value="p">
+    <label for="p">Paramount</label>
+    
+    <input type="radio" id="pv" name="filme" value="pv">
+    <label for="pv">Prime Video</label>
+  </form><br>
+
+  <a href="https://play.google.com/store/apps/details?id=com.cbs.ca">Paramount+</a>
+  <a href="https://www.amazon.com.br/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fna.primevideo.com%2F-%2Fpt%2Fauth%2Freturn%3F_t%3D1sg3nDJp1u15FHJVpn1r7DraSnJO3T2dcyU6PClmXxmGBnAAAAAQAAAABq52BQcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26ref_%3Dav_auth_ap%26language%3Dpt%26location%3D%2F-%2Fpt%2Fdetail%2F0JANL96N74SPD89F1GO8TQLHTS%3Fref_%253Datv_auth_red_aft%2526language%253Dpt%2526deepLinkingRedirect%253D1%2526autoplay%253D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_prime_video_sso_br&openid.mode=checkid_setup&countryCode=BR&siteState=135-9467335-8501239&language=pt_BR&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Prime Video</a>
+
+</body>
+</html>
 ```
 
 ## FASE 3 - Exercícios (Básico-Difícil)
