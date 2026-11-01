@@ -285,39 +285,41 @@
 </html>
 ```
 
-11-) Tabelas de alunos. Crie uma tabela chamada "Notas dos alunos". Colunas: Nome | Nota 1 | Nota 2 | Média. Cadastre 5 alunos fictícios. Use a estrutura do ex 5.
+### 11-) Tabelas de alunos. Crie uma tabela chamada "Notas dos alunos". Colunas: Nome | Nota 1 | Nota 2 | Média. Cadastre 5 alunos fictícios. Use a estrutura do ex 5.
 
 ```HTML
 
 ```
 
-12-) Formulário Básico. Crie uma página chamada "Cadastro". Ela deve pedir: Nome, e-mail, senha e um botão enviar. Use ```<form>```, ```<label>```, ```<input>``` e ```<button>```.
+### 12-) Formulário Básico. Crie uma página chamada "Cadastro". Ela deve pedir: Nome, e-mail, senha e um botão enviar. Use ```<form>```, ```<label>```, ```<input>``` e ```<button>```.
 
 ```HTML
 
 ```
 
-13-) Formulário completo. Pegue o exercício 12 e acrescente idade, telefone, e data de nascimento. Descubra os ```<input>```. (Continuação do exercício 7!). 
+### 13-) Formulário completo. Pegue o exercício 12 e acrescente idade, telefone, e data de nascimento. Descubra os ```<input>```. (Continuação do exercício 7!). 
 
 ```HTML
 
 ```
 
-14-) Escolhas. Pegue o formulário do exercício 13 e acrescente: Sexo. Utilize rádio. Linguagens que você conhece: utilize checkbox,  estado: utilize um ```<select>``` com pelo menos 5 estados.
+### 14-) Escolhas. Pegue o formulário do exercício 13 e acrescente: Sexo. Utilize rádio. Linguagens que você conhece: utilize checkbox,  estado: utilize um ```<select>``` com pelo menos 5 estados.
 
 ```HTML
 
 ```
 
-15-) Página do produto. Agora crie uma página para um produto, imagem, descrição, preço, lista com características, tabela com informações, link e botão. 
+### 15-) Página do produto. Agora crie uma página para um produto, imagem, descrição, preço, lista com características, tabela com informações, link e botão. 
 
 ```HMTL
 
 ```
 
-16-) Página de filme. Crie uma página sobre um filme. Com título, imagem, descrição, ano, gênero, lista com personagens e link.
+### 16-) Página de filme. Crie uma página sobre um filme. Com título, imagem, descrição, ano, gênero, lista com personagens e link.
 
 ```HTML
 
 ```
- 
+
+## FASE 3 - Exercícios (Básico-Difícil)
+<img src="https://img.shields.io/badge/FEITO NO-VScode-orange">
