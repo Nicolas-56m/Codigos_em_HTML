@@ -717,29 +717,29 @@
   <h4>Títulos</h4>
   <ul>
     <li>Mundial Interclubes - <em>1981</em></li>
-    <li>Campeonato Brasileiro - <em>9 títulos</em></li>
+    <li>Campeonato Brasileiro - <em>2019, 2020 e 2025</em></li>
     <li>Libertadores - <em>1981, 2019, 2022 e 2025</em></li>
-    <li>Copa do Brasil - <em>5 títulos</em></li>
+    <li>Copa do Brasil - <em>1990, 2006, 2013, 2022 e 2024</em></li>
     <li>Supercopa do Brasil - <em>2020 e 2021</em></li>
-    <li>Campeonato Carioca - <em>40 títulos</em></li>
+    <li>Campeonato Carioca - <em>exemplos: 2019, 2020, 2021, 2024 e 2025</em></li>
   </ul>
   
-  <p>Os números acima vêm das páginas oficiais do Flamengo</p>
+  <p>Esta é uma seleção de conquistas, não uma lista completa. Consulte o site oficial para conferir o histórico atualizado de títulos.</p>
 
-  <h2>Jogadores</h2>
-  <p>Exemplos de jogadores relacionados ao clube. O elenco muda ao longo das temporadas; consulte o site oficial para a lista atualizada.</p>
+  <h2>Jogadores marcantes da história</h2>
+  <p>Exemplos de jogadores que fizeram parte da história do Flamengo. A lista não representa o elenco atual.</p>
   
   <ol>
-    <li>Rossi</li>
-    <li>Varela</li>
-    <li>Alex Sandro</li>
-    <li>Léo Ortiz</li>
-    <li>De La Cruz</li>
-    <li>Samuel Lino</li>
-    <li>De Arrascaeta</li>
-    <li>Bruno Henrique</li>
-    <li>Pedro</li>
-    <li>Luiz Araújo</li>
+    <li>Zico</li>
+    <li>Júnior</li>
+    <li>Leandro</li>
+    <li>Adílio</li>
+    <li>Andrade</li>
+    <li>Romário</li>
+    <li>Petkovic</li>
+    <li>Adriano</li>
+    <li>Ronaldinho Gaúcho</li>
+    <li>Gabigol</li>
   </ol>
 
   <table>
@@ -778,7 +778,7 @@
 </html>
 ```
 
-### 19-) Página de restaurante. Crie uma página para um restaurante. Inclua: Nome, Imagem, descrição, cardápio, preços, tabela, endereço fictício e fórmula de reserva.
+### 19-) Página de restaurante. Crie uma página para um restaurante. Inclua: Nome, imagem, descrição, cardápio, preços, tabela, endereço fictício e formulário de reserva.
 
 ```HTML
 <!DOCTYPE html>
@@ -803,7 +803,7 @@
     <li>Criador: <strong>Marco Bellinu</strong></li>
     <li>Ano de criação: <strong><em>2018</em></strong></li>
     <li>Restaurante especializado em culinária italiana</li>
-    <li>Pratos principais: massas, pizzas, e sobremesas</li>
+    <li>Pratos principais: massas, pizzas e sobremesas</li>
     <li>Ambiente familiar e atendimento no local</li>
   </ul>
   
@@ -847,7 +847,7 @@
     </tr>
     
     <tr>
-      <td>Tiramisu</td>
+      <td>Tiramisù</td>
       <td>Sobremesa</td>
       <td>R$ 18,90</td>
     </tr>
@@ -968,6 +968,8 @@
   
   <button type="button">Adicionar no Carrinho</button><hr>
 
+  <p>Os botões são demonstrativos. Para adicionar produtos a um carrinho de verdade, seria necessário implementar essa função com JavaScript.</p>
+
 </body>
 </html>
 ```
@@ -986,7 +988,7 @@
 <body>
 
   <h1>Curso de Desenvolvimento de Sistemas</h1>
-  <h3>Se inscreva no formulário abaixo</h3>
+  <h3>Inscreva-se no formulário abaixo</h3>
   <h4>Formulário</h4>
 
   <form>
@@ -1009,7 +1011,7 @@
 
     <select id="curso" name="curso">
       <option value="">Selecione</option>
-      <option value="ds">Desenvolvimento de          Sistemas</option>
+      <option value="ds">Desenvolvimento de Sistemas</option>
       <option value="adm">Administração</option>
       <option value="eletronica">Eletrônica</option>
     </select>
@@ -1069,14 +1071,14 @@
     <p>- Nenhuma experiência em mercado de trabalho</p>
     
     <h2>Formação</h2>
-    <p>- Cursando o 2º ano do Ensino Médio a tarde (com a possibilidade da troca de horário).</p>
+    <p>- Cursando o 2º ano do Ensino Médio à tarde, com possibilidade de mudança de horário.</p>
     
     <h3>Cursos/Habilidades/Conhecimentos</h3>
     
     <ul>
       <li>Pacote Office (Word, Excel, PowerPoint) - nível básico</li>
-      <li>Inglês Básico</li>
-      <li>Conhecimento Básico em Libras</li>
+      <li>Inglês básico</li>
+      <li>Conhecimento básico em Libras</li>
     </ul>
     
     <h3>Contato</h3>
@@ -1122,7 +1124,7 @@
     <li>Carlos Oliveira - Desenvolvimento de Sistemas</li>
     <li>Mariana Santos - Administração</li>
     <li>João Pereira - Eletrônica</li>
-    <li>Ana Costa - Redes de Computação</li>
+    <li>Ana Costa - Redes de Computadores</li>
     <li>Lucas Mendes - Design Gráfico</li>
   </ol>
 
@@ -1131,7 +1133,7 @@
   <ul>
     <li>Desenvolvimento de Sistemas - 13:30 às 17:30</li>
     <li>Administração - 08:00 às 12:00</li>
-    <li>Redes de Computadores - 13:30 às 17:30</li>
+    <li>Redes de Computadores - 13h30 às 17h30</li>
     <li>Eletrônica - 18:30 às 22:30</li>
     <li>Design Gráfico - 08:00 às 12:00</li>
   </ul>
@@ -1149,35 +1151,35 @@
     <tr>
       <td>Desenvolvimento de Sistemas</td>
       <td>Carlos Oliveira</td>
-      <td>13:30 - 17:30</td>
+      <td>13h30 às 17h30</td>
       <td>2 anos</td>
     </tr>
     
     <tr>
       <td>Administração</td>
       <td>Mariana Santos</td>
-      <td>08:00 - 12:00</td>
+      <td>8h às 12h</td>
       <td>1 ano e meio</td>
     </tr>
     
     <tr>
       <td>Eletrônica</td>
       <td>João Pereira</td>
-      <td>18:30 - 22:30</td>
+      <td>18h30 às 22h30</td>
       <td>2 anos</td>
     </tr>
     
     <tr>
       <td>Redes de Computadores</td>
       <td>Ana Costa</td>
-      <td>13:30 - 17:30</td>
+      <td>13h30 às 17h30</td>
       <td>2 anos</td>
     </tr>
     
     <tr>
       <td>Design Gráfico</td>
       <td>Lucas Mendes</td>
-      <td>08:00 - 12:00</td>
+      <td>8h às 12h</td>
       <td>1 ano</td>
     </tr>
   </table>
@@ -1222,7 +1224,8 @@
 <body>
 
   <h1>TechZone</h1>
-  <p>Tecnologia para jogar, estudar e trabalhar.</p>
+  <p>Loja fictícia de tecnologia para jogar, estudar e trabalhar.</p>
+  <p>Os preços e as especificações abaixo são exemplos ilustrativos, não uma oferta comercial real.</p>
 
   <h2>Sobre a TechZone</h2>
 
@@ -1237,7 +1240,7 @@
     width="400">
 
   <p>
-    <strong>Preço:</strong>
+    <strong>Preço ilustrativo:</strong>
     <del>De: R$ 5.199,99</del><br>
     <strong>Por: </strong>R$ 4.599,00
   </p><hr>
@@ -1249,7 +1252,7 @@
     <li>Radeon RX 7600</li>
     <li>16 GB de memória RAM</li>
     <li>Placa-mãe A620</li>
-    <li>Fonte de 650W</li>
+    <li>Fonte de alimentação de 650 W (modelo não especificado)</li>
   </ul><hr>
 
   <h4>Como comprar</h4>
@@ -1303,8 +1306,8 @@
 
     <tr>
       <td>Fonte</td>
-      <td>650W</td>
-      <td>80 Plus</td>
+      <td>650 W (modelo não informado)</td>
+      <td>Certificação não informada</td>
     </tr>
   </table><hr>
 
