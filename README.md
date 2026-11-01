@@ -126,7 +126,7 @@
 </html>
 ```
 
-## FASE 1 - Exercícios (Básico-Intermediário)
+## FASE 2 - Exercícios (Básico-Intermediário)
 <img src="https://img.shields.io/badge/FEITO NO-VScode-blue">
 
 ### 6-) Crie uma página chamada "Sobre mim". Ela deve ter um ```<h1>```, um parágrafo falando sobre você, um ```<h2>``` chamado "Meus hobbies". Uma lista com 5 hobbies. Um ```<h2>``` chamado "Meus estudos". Um parágrafo sobre seus estudos.
@@ -232,5 +232,49 @@
 ### 10-) Tabela. Crie uma tabela com 5 produtos. Ela deverá ter: Produto | Preço | Quantidade. Você precisará aprender: ```<table>```, ```<tr>```, ```<th>``` e ```<td>```.
 
 ```HTML
-
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Tabela</title>  
+</head>  
+<body>    
+  
+  <h1>Tabela de produtos</h1>
+  
+  <table>
+    <tr>
+      <th>Produto</th>
+      <th>Preço</th>
+      <th>Quantidade</th>
+    </tr>
+    
+    <tr>
+      <td>Mouse</td>
+      <td>R$ 50,00</td>
+      <td>2</td>
+    </tr>
+     
+    <tr>
+      <td>Teclado</td>
+      <td>R$ 80,00</td>
+      <td>4</td>
+    </tr>
+     
+    <tr>
+      <td>Monitor</td>
+      <td>R$ 500,00</td>
+      <td>12</td>
+    </tr>
+     
+    <tr>
+      <td>Gabinete</td>
+      <td>R$ 100,00</td>
+      <td>18</td>
+    </tr>
+  </table>
+  
+</body>  
+</html>
 ```
