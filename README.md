@@ -622,7 +622,69 @@
 ### 17-) Página de jogo. Crie uma página sobre um jogo. Inclua: Nome, imagem, descrição, requisitos, listas de características, tabelas de informações e link para o site oficial.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Free Fire</title>
+</head>
+<body>
 
+  <h1>Free Fire</h1>
+
+  <img
+    src="https://escolaeducacao.com.br/wp-content/uploads/2021/08/ff-capa.jpg"
+    alt="Capa de carregamento antiga de jogo"
+    width="400">
+
+  <h4>Descrição do jogo</h4>
+  <p>Jogo de batalha online para celular com partidas de aproximadamente 10 minutos, tendo de exemplo os modos de jogo com Battle Royale e Contra Squad.</p>
+
+  <h4>Características</h4>
+  
+  <ol>
+    <li>Battle Royale</li>
+    <li>Contra Squad</li>
+    <li>Partidas rápidas</li>
+    <li>Personagens</li>
+    <li>Free Fire MAX</li>
+  </ol>
+
+  <h4>Tabela de informações</h4>
+
+  <table>
+    <tr>
+      <th>Informação</th>
+      <th>Dado</th>
+    </tr>
+    
+    <tr>
+      <td>Desenvolvedora</td>
+      <td>Garena</td>
+    </tr>
+    
+    
+    <tr>
+      <td>Plataforma</td>
+      <td>Android/IOS/PC</td>
+    </tr>
+    
+    <tr>
+      <td>Gênero</td>
+      <td>Battle Royale</td>
+    </tr>
+    
+    <tr>
+      <td>Modelo</td>
+      <td>Gratuito para jogar</td>
+    </tr>
+  </table><br>
+
+  <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth">Link Oficil do Jogo</a>
+
+</body>
+</html>
 ```
 
 ### 18-) Página de time. Crie uma página sobre um time de futebol. Inclua: Nome, escudo/imagem, descrição, títulos, jogadores, tabelas com informações e links.
