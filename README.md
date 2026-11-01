@@ -515,7 +515,7 @@
 
 ### 15-) Página do produto. Agora crie uma página para um produto, imagem, descrição, preço, lista com características, tabela com informações, link e botão. 
 
-```HMTL
+```HTML
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -611,8 +611,7 @@
   </form><br>
 
   <a href="https://play.google.com/store/apps/details?id=com.cbs.ca">Paramount+</a>
-  <a href="https://www.amazon.com.br/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fna.primevideo.com%2F-%2Fpt%2Fauth%2Freturn%3F_t%3D1sg3nDJp1u15FHJVpn1r7DraSnJO3T2dcyU6PClmXxmGBnAAAAAQAAAABq52BQcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26ref_%3Dav_auth_ap%26language%3Dpt%26location%3D%2F-%2Fpt%2Fdetail%2F0JANL96N74SPD89F1GO8TQLHTS%3Fref_%253Datv_auth_red_aft%2526language%253Dpt%2526deepLinkingRedirect%253D1%2526autoplay%253D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_prime_video_sso_br&openid.mode=checkid_setup&countryCode=BR&siteState=135-9467335-8501239&language=pt_BR&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Prime Video</a>
-
+  <a href="https://www.netflix.com/br/title/1181550?preventIntent=true&source=35&fromWatch=true">Netflix</a>
 </body>
 </html>
 ```
