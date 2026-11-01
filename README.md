@@ -1365,5 +1365,118 @@
 ### 25-) Agora faça uma página inteira sozinho. De qualquer tema, com as tags utilizadas.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo do Futebol</title>
+</head>
+
+<body>
+
+  <h1>Mundo do Futebol</h1>
+
+  <p>O futebol é um dos esportes mais populares do mundo. É praticado por milhões de pessoas e envolve técnica, estratégia e trabalho em equipe.</p>
+
+  <img src="https://images.pexels.com/photos/12179593/pexels-photo-12179593.jpeg" 
+    alt="Bola de futebol"
+    width="400"><hr>
+
+  <h2>Características do futebol:</h2>
+
+  <ul>
+    <li>Trabalho em equipe</li>
+    <li>Estratégia</li>
+    <li>Velocidade</li>
+    <li>Comunicação</li>
+  </ul><hr>
+
+  <table border="8">
+    <tr>
+      <th>Competição</th>
+      <th>Região</th>
+      <th>Periodicidade</th>
+    </tr>
+
+    <tr>
+      <td>Copa do Mundo</td>
+      <td>Mundial</td>
+      <td>4 anos</td>
+    </tr>
+
+    <tr>
+      <td>Brasileirão</td>
+      <td>Brasil</td>
+      <td>Anual</td>
+    </tr>
+
+    <tr>
+      <td>Libertadores</td>
+      <td>América do Sul</td>
+      <td>Anual</td>
+    </tr>
+
+    <tr>
+      <td>Champions League</td>
+      <td>Europa</td>
+      <td>Anual</td>
+    </tr>
+  </table><br><hr>
+
+  <h3>Links</h3>
+
+  <a href="https://www.fifa.com/">FIFA</a>
+  <a href="https://www.cbf.com.br/">CBF</a>
+  <a href="https://www.uefa.com/">UEFA</a><br><br><hr>
+
+  <h3>Formulário</h3>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" placeholder="Digite seu nome" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="Digite seu e-mail" id="email"><br><br>
+
+    <strong>Time favorito:</strong><br><br>
+
+    <input type="radio" name="t" id="p" value="p">
+    <label for="p">Palmeiras</label>
+
+    <input type="radio" name="t" id="am" value="am">
+    <label for="am">Atlético Mineiro</label>
+
+    <input type="radio" name="t" id="b" value="b">
+    <label for="b">Bahia</label>
+
+    <input type="radio" name="t" id="f" value="f">
+    <label for="f">Flamengo</label>
+
+    <input type="radio" name="t" id="s" value="s">
+    <label for="s">Santos</label>
+
+    <input type="radio" name="t" id="c" value="c">
+    <label for="c">Corinthians</label><br><br>
+
+    <strong>Competição favorita:</strong><br><br>
+
+    <input type="checkbox" id="brasileirao" value="brasileirao">
+    <label for="brasileirao">Brasileirão</label>
+
+    <input type="checkbox" id="copa" value="copa">
+    <label for="copa">Copa do Mundo</label>
+
+    <input type="checkbox" id="cl" value="cl">
+    <label for="cl">Champions League</label>
+
+    <input type="checkbox" id="l" value="l">
+    <label for="l">Libertadores</label><br><br>
+
+    <button type="submit">Enviar opinião</button>
+  </form>
+
+</body>
+</html>
 ```
