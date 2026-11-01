@@ -899,14 +899,145 @@
 ### 20-) Página de loja. Crie uma página de uma loja. Inclua pelo menos 5 produtos. Cada produto deve possuir: nome, imagem, descrição, preço e botão.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja PixelZone</title>
+</head>
+<body>
 
+  <h1>PixelZone</h1>
+  <p><strong>Descrição da nossa loja: </strong>Loja de acessórios e periféricos para PC e gamers</p>
+
+  <h3>Produtos</h3>
+
+  <h6>Mouse Gamer</h6>
+  
+  <img src="https://m.media-amazon.com/images/I/51jXq6Nz2SL._AC_UF894,1000_QL80_FMwebp_.jpg" 
+    alt="Mouse gamer"
+    width="400">
+  
+  <p><strong>Descrição: </strong>Mouse iluminação RGB e 6 botões.</p>
+  <p><strong>Preço: </strong>R$ 89,90</p>
+  
+  <button type="button">Adicionar no Carrinho</button><hr>
+  
+  <h6>Teclado Mecânico RGB</h6>
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypQ5NdQs-uD0CdjdaKWb4lklD6ODbiqR9wiv8Atsaww&s=10" 
+    alt="Teclado Mecânico RGB"
+    width="400">
+  
+  <p><strong>Descrição: </strong>Teclado mecânico com iluminação RGB.</p>
+  <p><strong>Preço: </strong>R$ 199,90</p>
+  
+  <button type="button">Adicionar no Carrinho</button><hr>
+  
+  <h6>Headset Gamer</h6>
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtKp88YVrcHoSeXBx9--ZVaQjP1KF_A4cmJc3_OJeuFg&s=10" 
+    alt="Headset Gamer"
+    width="400">
+  
+  <p><strong>Descrição: </strong>Headset com microfone integrado e som estéreo.</p>
+  <p><strong>Preço: </strong>R$ 149,90</p>
+  
+  <button type="button">Adicionar no Carrinho</button><hr>
+  
+  <h6>Mousepad Gamer Grande</h6>
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOQ1k6tW_Ict1JAg9ITjnuzoeyJS9AgvfnzSnrcFPFZg&s=10" 
+    alt="Mousepad Gamer Grande"
+    width="400">
+  
+  <p><strong>Descrição: </strong>Mousepad grande para teclado e mouse.</p>
+  <p><strong>Preço: </strong>R$ 79,90</p>
+  
+  <button type="button">Adicionar no Carrinho</button><hr>
+  
+  <h6>Webcam Full HD</h6>
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhHcrQQsJ_lSBDEKxg37bSTAYXqosFSFSToDXcleRB9Q&s=10" 
+    alt="Webcam Full HD"
+    width="400">
+  
+  <p><strong>Descrição: </strong>Webcam com resolução Full HD para chamadas e gravações</p>
+  <p><strong>Preço: </strong>R$ 169,90</p>
+  
+  <button type="button">Adicionar no Carrinho</button><hr>
+
+</body>
+</html>
 ```
 
 
 ### 21-) Página de cadastro de curso. Crie uma página para inscrição em um curso. O formulário deve pedir: nome, email, idade, telefone, data de nascimento, curso desejado, turno, linguagens que conhece e botão de envio.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de curso</title>
+</head>
+<body>
 
+  <h1>Curso de Desenvolvimento de Sistemas</h1>
+  <h3>Se inscreva no formulário abaixo</h3>
+  <h4>Formulário</h4>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" placeholder="Digite seu nome aqui" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="Digite seu e-mail aqui" id="email"><br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade"><br><br>
+
+    <label for="tel">Telefone:</label>
+    <input type="tel" id="tel"><br><br>
+
+    <label for="dtn">Data de nascimento:</label>
+    <input type="date" id="dtn"><br><br>
+
+    <label for="cd"><strong>Curso desejado (Desenvolvimento de Sistemas):</strong></label>
+    <input type="text" placeholder="Digite (Sim ou Não)" id="cd"><br><br>
+    
+    <p><strong>Linguagens que conhece:</strong></p>
+
+    <input type="checkbox" id="html" value="html">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" value="css">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" value="JavaScript">
+    <label for="js">JavaScript</label>
+
+    <input type="checkbox" id="c#" value="c#">
+    <label for="c#">C#</label><br>
+    
+    <p><strong>Escolha o turno</strong></p>
+
+    <input type="radio" id="manha" name="turno">
+    <label for="manha">Manhã</label>
+
+    <input type="radio" id="tarde" name="turno">
+    <label for="tarde">Tarde</label>
+
+    <input type="radio" id="noite" name="turno">
+    <label for="noite">Noite</label><br><br>
+
+    <button type="submit">Enviar Cadastro</button>
+  </form>
+
+</body>
+</html>
 ```
 
 ### 22-) Currículo. Crie uma página HTML representando um currículo. Inclua: nome, objetivo, formação, cursos, habilidades, conhecimentos, experiência e contato.
