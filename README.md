@@ -187,6 +187,24 @@
 ### 8-) Imagem + lista. Pegue o exercício 7 e acrescente uma lista: Característica do animal. (Continuação do exercício 7)!.
 
 ```HTML
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Animal favorito</title>  
+</head>  
+<body>    
+  
+  <h1>Animal favorito</h1>
+  
+  <img 
+    src="https://media.istockphoto.com/id/1130682008/pt/foto/dog-in-a-field-os-flowers.jpg?s=612x612&w=0&k=20&c=zfX2COrv9IWuoP8uMxHi_RVs3uzADJXzV2GCrHUZzgE="
+    alt="Um cachorro feliz"
+    width="400">
+  
+  <p>Cachorro é um companheiro, dependendo da criação se torna um animal obediente e dócil.</p>
+
   <h2>Características do animal</h2>
   
   <ol>
@@ -350,13 +368,65 @@
 ### 12-) Formulário Básico. Crie uma página chamada "Cadastro". Ela deve pedir: Nome, e-mail, senha e um botão enviar. Use ```<form>```, ```<label>```, ```<input>``` e ```<button>```.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
 
+  <h1>Cadastro</h1>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha"><br><br>
+
+    <button type="submit">Enviar</button>
+  
 ```
 
-### 13-) Formulário completo. Pegue o exercício 12 e acrescente idade, telefone, e data de nascimento. Descubra os ```<input>```. (Continuação do exercício 7!). 
+### 13-) Formulário completo. Pegue o exercício 12 e acrescente idade, telefone, e data de nascimento. Descubra os ```<input>```. (Continuação do exercício 12)!. 
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
 
+  <h1>Cadastro</h1>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha"><br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade"><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone"><br><br>
+
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" id="nascimento"><br><br>
+
+    <button type="submit">Enviar</button>
 ```
 
 ### 14-) Escolhas. Pegue o formulário do exercício 13 e acrescente: Sexo. Utilize rádio. Linguagens que você conhece: utilize checkbox,  estado: utilize um ```<select>``` com pelo menos 5 estados.
