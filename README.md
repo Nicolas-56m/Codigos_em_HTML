@@ -516,7 +516,55 @@
 ### 15-) Página do produto. Agora crie uma página para um produto, imagem, descrição, preço, lista com características, tabela com informações, link e botão. 
 
 ```HMTL
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produto</title>
+</head>
+<body>
 
+  <h1>Compra</h1>
+  
+  <h3>Gabinete Gamer</h3>
+
+  <img
+    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSYEKSWN1aWYCkgy5jM0AVtfdZC35ruvfI93QTacX2BRzqhH6Y8isRat1ZJvSjwRn5VNzMbcekw0kce2v8wjf17-EXyMqk0D1ebdR7HEkSke3yrtwkKBZfeoClFyzHHjfoNTRAfMDc0WQc&usqp=CAc"
+    alt="Gabinete Gamer Branco"
+    width="400">
+
+  <p>Gabinete Gamer Branco para PC com 4 ventoinhas RGB (3 na frente e 1 atrás).</p>
+  <p><em><strong>R$ 182,21</strong></em></p>
+
+  <ul>
+    <li>Gabinete Gamer</li>
+    <li>Cor Branco</li>
+    <li>L * 65cm, AL * 50cm</li>
+    <li>Vidros laterais</li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Compartimento</th>
+      <th>Garantia</th>
+      <th>Recomendações</th>
+    </tr>
+
+    <tr>
+      <td>Peças de largura de até *64cm. Peças de altura de até *30cm</td>
+      <td>GamerTech</td>
+      <td>Garantia de 24 meses para defeitos</td>
+      <td>Não deixá-lo em lugar muito fechado</td>
+    </tr>
+  </table>
+
+  <a href="https://www.mercadolivre.com.br/up/MLBU4912537356?matt_tool=38524122&pdp_filters=item_id:MLB7487386522&ua=ooNq45mCUm4zbQM82t26-AlAVykb1B8t710I5-Cfx_I_6Emi#origin=share&sid=share&wid=MLB7487386522&action=copy">Gabinete Gamer Branco</a><br><br>
+
+  <button type="button">Adicionar no Carrinho</button>
+
+</body>
+</html>
 ```
 
 ### 16-) Página de filme. Crie uma página sobre um filme. Com título, imagem, descrição, ano, gênero, lista com personagens e link.
