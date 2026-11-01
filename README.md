@@ -236,14 +236,11 @@
   <h1>Computador</h1>
   
   <p>
-    <strong>Memória RAM,</strong>
-    <strong>Memória SSD,</strong>
-  
-    <em>Monitor Gamer,</em>
-    <em>Gabinete,</em>
-  
-    <mark>Placa-Mãe,</mark>
-    <mark>Processador.</mark>
+   A <strong>memória RAM</strong> armazena  temporariamente
+   dados utilizados pelo computador.
+   O <em>SSD</em> armazena arquivos de forma  permanente.
+   <mark>Ambos são importantes</mark> para o  funcionamento
+   do computador.
   </p>
   
 </body>  
