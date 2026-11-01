@@ -1043,13 +1043,165 @@
 ### 22-) Currículo. Crie uma página HTML representando um currículo. Inclua: nome, objetivo, formação, cursos, habilidades, conhecimentos, experiência e contato.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu currículo</title>
+</head>
+<body>
 
+  <center>
+    <h1><em>Currículo<br>Jovem Aprendiz</em></h1>
+    <h2>Zé da Manga da Silva</h2>
+    
+    <h3>Objetivo Profissional (a disposição da empresa)</h3>
+    <p>- Ser atendente, ajudante geral ou auxiliar de produção</p>
+    
+    <h3>Experiência</h3>
+    <p>- Nenhuma experiência em mercado de trabalho</p>
+    
+    <h2>Formação</h2>
+    <p>- Cursando o 2°ano do Ensino Médii a tarde (com a possibilidade da troca de horário).</p>
+    
+    <h3>Cursos/Habilidades/Conhecimentos</h3>
+    
+    <ul>
+      <li>Pacote Office (Word, Excel, PowerPoint) - nível básico</li>
+      <li>Inglês Básico</li>
+      <li>Conhecimento Básico em Libras</li>
+    </ul>
+    
+    <h3>Contato</h3>
+    
+    <ul>
+      <li>19-989608960</li>
+      <li>19-989604989</li>
+      <li>84ng12z@gmail.com</li>
+    </ul>
+  </center>
+  
+</body>
+</html>
 ```
 
 ### 23-) Página de escola. Crie uma página para uma escola fictícia. Inclua: nome da escola, apresentação, cursos, professores, horários, tabela, formulário de contato e links.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Técnica</title>
+</head>
+<body>
 
+  <h1>Escola Técnica Nova Geração</h1>
+  <p><strong>Apresentação: </strong>A Escola Ténica Nova Geração oferece cursos voltados para tecnologia e preparação profissional dos alunos.</p>
+
+  <h4>Cursos</h4>
+  
+  <ul>
+    <li>Desenvolvimento de Sistemas</li>
+    <li>Administração</li>
+    <li>Eletrônica</li>
+    <li>Redes de Computadores</li>
+    <li>Design Gráfico</li>
+  </ul>
+
+  <h4>Professores</h4>
+  
+  <ol>
+    <li>Carlos Oliveira - Desenvolvimento de Sistemas</li>
+    <li>Mariana Santos - Administração</li>
+    <li>João Pereira - Eletrônica</li>
+    <li>Ana Costa - Redes de Computação</li>
+    <li>Lucas Mendes - Design Gráfico</li>
+  </ol>
+
+  <h4>Horários</h4>
+  
+  <ul>
+    <li>Desenvolvimento de Sistemas - 13:30 às 17:30</li>
+    <li>Administração - 08:00 às 12:00</li>
+    <li>Redes de Comoutadores - 13:30 às 17:30</li>
+    <li>Eletrônica - 18:30 às 22:30</li>
+    <li>Design Gráfico - 08:00 às 12:00</li>
+  </ul>
+  
+  <h4>Tabela de cursos</h4>
+
+  <table>
+    <tr>
+      <th>Curso</th>
+      <th>Professor</th>
+      <th>Horário</th>
+      <th>Duração</th>
+    </tr>
+    
+    <tr>
+      <td>Desenvolvimento de Sistemas</td>
+      <td>Carlos Oliveira</td>
+      <td>13:30 - 17:30</td>
+      <td>2 anos</td>
+    </tr>
+    
+    <tr>
+      <td>Administração</td>
+      <td>Mariana Santos</td>
+      <td>08:00 - 12:00</td>
+      <td>1 ano e meio</td>
+    </tr>
+    
+    <tr>
+      <td>Eletrônica</td>
+      <td>João Pereira</td>
+      <td>18:30 - 22:30</td>
+      <td>2 anos</td>
+    </tr>
+    
+    <tr>
+      <td>Redes de Computadores</td>
+      <td>Ana Costa</td>
+      <td>13:30 - 17:30</td>
+      <td>2 anos</td>
+    </tr>
+    
+    <tr>
+      <td>Design Gráfico</td>
+      <td>Lucas Mendes</td>
+      <td>08:00 - 12:00</td>
+      <td>1 ano</td>
+    </tr>
+  </table>
+
+  <h4>Formulário de Contato</h4>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" placeholder="Ex: João da Silva"id="nome"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="Ex: joão@email.com" id="email"><br><br>
+
+    <label for="ass">Assunto:</label>
+    <input type="text" placeholder="Informações sobre o curso de interesse" id="ass"><br><br>
+    
+    <label for="msg">Mensagem</label>
+    <textarea id="mensagem"></textarea><br><br>
+    
+    <button type="submit">Enviar mensagem</button>
+  </form>
+
+  <h5><mark>Links</mark></h5>
+
+  <a href="https://www.google.com/url?opi=89978449&q=https://www.instagram.com/senai_nacional/%3Fhl%3Dpt&sa=U&ved=2ahUKEwiYt7iuu-eXAxWhkJUCHUirB_4QFnoECCQQAQ&usg=AOvVaw1dx2sP4eL6PCzNOzLlNdXy">Instagram</a>
+  <a href="https://www.google.com/url?opi=89978449&q=https://www.facebook.com/senainacional/&sa=U&ved=2ahUKEwiIjcLNu-eXAxWrpZUCHX6fLwEQFnoECGEQAQ&usg=AOvVaw2oGkjhh9xZuBtp8pg_mhZo">Facebook</a>
+  
+</body>
+</html>
 ```
 
 ### 24-) Página completa. Crie uma página sobre qualquer assunto que você quiser. Usar todas as tags anteriores.
