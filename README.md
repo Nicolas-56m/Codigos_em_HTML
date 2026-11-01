@@ -381,13 +381,13 @@
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" id="nome"><br><br>
+    <input type="text" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" id="email"><br><br>
+    <input type="email" id="email" name="email"><br><br>
 
     <label for="senha">Senha:</label>
-    <input type="password" id="senha"><br><br>
+    <input type="password" id="senha" name="senha"><br><br>
 
     <button type="submit">Enviar</button>
   </form>
@@ -412,13 +412,13 @@
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" id="nome"><br><br>
+    <input type="text" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" id="email"><br><br>
+    <input type="email" id="email" name="email"><br><br>
 
     <label for="senha">Senha:</label>
-    <input type="password" id="senha"><br><br>
+    <input type="password" id="senha" name="senha"><br><br>
 
     <label for="idade">Idade:</label>
     <input type="number" id="idade" name="idade"><br><br>
@@ -427,7 +427,7 @@
     <input type="tel" id="telefone" name="telefone"><br><br>
 
     <label for="nascimento">Data de nascimento:</label>
-    <input type="date" id="nascimento"><br><br>
+    <input type="date" id="nascimento" name="nascimento"><br><br>
 
     <button type="submit">Enviar</button>
   </form>
@@ -452,22 +452,22 @@
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" id="nome"><br><br>
+    <input type="text" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" id="email"><br><br>
+    <input type="email" id="email" name="email"><br><br>
 
     <label for="senha">Senha:</label>
-    <input type="password" id="senha"><br><br>
+    <input type="password" id="senha" name="senha"><br><br>
 
     <label for="idade">Idade:</label>
-    <input type="number" id="idade" min="0" max="100"><br><br>
+    <input type="number" id="idade" min="0" max="100" name="idade"><br><br>
 
     <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone"><br><br>
+    <input type="tel" id="telefone" name="telefone"><br><br>
 
     <label for="nascimento">Data de nascimento:</label>
-    <input type="date" id="nascimento"><br>
+    <input type="date" id="nascimento" name="nascimento"><br>
 
     <p><strong>Sexo:</strong></p>
 
@@ -486,7 +486,7 @@
     <label for="css">CSS</label>
 
     <input type="checkbox" id="js" name="linguagens" value="JavaScript">
-    <label for="javascript">JavaScript</label>
+    <label for="js">JavaScript</label>
 
     <input type="checkbox" id="python" name="linguagens" value="Python">
     <label for="python">Python</label><br><br>
@@ -537,7 +537,7 @@
   <ul>
     <li>Gabinete Gamer</li>
     <li>Cor Branco</li>
-    <li>L * 65cm, AL * 50cm</li>
+    <li>Dimensões: consulte as especificações do fabricante</li>
     <li>Vidros laterais</li>
   </ul>
 
@@ -549,7 +549,7 @@
     </tr>
 
     <tr>
-      <td>Peças de largura de até *64cm. Peças de altura de até *30cm</td>
+      <td>Compatibilidade de peças: consulte as especificações do fabricante</td>
       <td>Garantia de 24 meses para defeitos</td>
       <td>Não deixá-lo em lugar muito fechado</td>
     </tr>
@@ -637,6 +637,9 @@
   <h4>Descrição do jogo</h4>
   <p>Jogo de batalha online para celular com partidas de aproximadamente 10 minutos, tendo de exemplo os modos de jogo com Battle Royale e Contra Squad.</p>
 
+  <h4>Requisitos</h4>
+  <p>Consulte a página oficial da loja de aplicativos para verificar a versão do sistema operacional e os requisitos atuais do jogo.</p>
+
   <h4>Características</h4>
   
   <ol>
@@ -677,7 +680,7 @@
     </tr>
   </table><br>
 
-  <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth">Link Oficil do Jogo</a>
+  <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth">Página do jogo na Google Play</a>
 
 </body>
 </html>
@@ -724,7 +727,7 @@
   <p>Os números acima vêm das páginas oficiais do Flamengo</p>
 
   <h2>Jogadores</h2>
-  <p>O elenco oficial lista esses jogadores entre os atuais</p>
+  <p>Exemplos de jogadores relacionados ao clube. O elenco muda ao longo das temporadas; consulte o site oficial para a lista atualizada.</p>
   
   <ol>
     <li>Rossi</li>
@@ -732,7 +735,7 @@
     <li>Alex Sandro</li>
     <li>Léo Ortiz</li>
     <li>De La Cruz</li>
-    <li>Luiz Lino</li>
+    <li>Samuel Lino</li>
     <li>De Arrascaeta</li>
     <li>Bruno Henrique</li>
     <li>Pedro</li>
@@ -762,7 +765,7 @@
     
     <tr>
       <td>Apelidos</td>
-      <td>Mengão/Rubo Negro</td>
+      <td>Mengão/Rubro-Negro</td>
     </tr>
   </table>
 
@@ -844,7 +847,7 @@
     </tr>
     
     <tr>
-      <td>Tiramisa</td>
+      <td>Tiramisu</td>
       <td>Sobremesa</td>
       <td>R$ 18,90</td>
     </tr>
@@ -857,28 +860,29 @@
   </table>
   
   <h4>Endereço</h4>
-  <p><strong>Cidade:</strong> Campinas-SP, <strong>Bairro: </strong>Cambuí, <strong>Rua/AV:</strong> Avenida Coronel Silva Telles, 514, <strong>CEP: </strong>13024-001</p>
+  <p><strong>Endereço fictício:</strong> Rua das Massas, 100, Bairro Jardim Imaginário, Campinas - SP, CEP 00000-000.</p>
 
 
   <h2>Formulário de reserva</h2>
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" id="nome"><br><br>
+    <input type="text" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" id="email"><br><br>
+    <input type="email" id="email" name="email"><br><br>
 
     <label for="tel">Telefone:</label>
-    <input type="tel" id="tel"><br><br>
+    <input type="tel" id="tel" name="tel"><br><br>
 
     <label for="dtr">Data de reserva:</label>
-    <input type="date" id="dtr"><br><br>
+    <input type="date" id="dtr" name="dtr"><br><br>
 
     <label for="qdp">Quantidade de pessoas:</label>
-    <input type="number" id="qdp"><br><br>
+    <input type="number" id="qdp" name="qdp"><br><br>
     
-    <select id="mesa">
+    <label for="mesa">Tipo de mesa:</label>
+    <select id="mesa" name="mesa">
       <option value="">Selecionar mesa</option>
       <option value="mc">Mesa comum</option>
       <option value="mf">Mesa para família</option>
@@ -987,19 +991,19 @@
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" placeholder="Digite seu nome aqui" id="nome"><br><br>
+    <input type="text" placeholder="Digite seu nome aqui" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" placeholder="Digite seu e-mail aqui" id="email"><br><br>
+    <input type="email" placeholder="Digite seu e-mail aqui" id="email" name="email"><br><br>
 
     <label for="idade">Idade:</label>
-    <input type="number" id="idade"><br><br>
+    <input type="number" id="idade" name="idade"><br><br>
 
     <label for="tel">Telefone:</label>
-    <input type="tel" id="tel"><br><br>
+    <input type="tel" id="tel" name="tel"><br><br>
 
     <label for="dtn">Data de nascimento:</label>
-    <input type="date" id="dtn"><br><br>
+    <input type="date" id="dtn" name="dtn"><br><br>
 
     <label for="curso">Curso desejado:</label>
 
@@ -1012,27 +1016,27 @@
     
     <p><strong>Linguagens que conhece:</strong></p>
 
-    <input type="checkbox" id="html" value="html">
+    <input type="checkbox" id="html" name="linguagens" value="html">
     <label for="html">HTML</label>
 
-    <input type="checkbox" id="css" value="css">
+    <input type="checkbox" id="css" name="linguagens" value="css">
     <label for="css">CSS</label>
 
-    <input type="checkbox" id="js" value="JavaScript">
+    <input type="checkbox" id="js" name="linguagens" value="javascript">
     <label for="js">JavaScript</label>
 
-    <input type="checkbox" id="c#" value="c#">
-    <label for="c#">C#</label><br>
+    <input type="checkbox" id="csharp" name="linguagens" value="csharp">
+    <label for="csharp">C#</label><br>
     
     <p><strong>Escolha o turno</strong></p>
 
-    <input type="radio" id="manha" name="turno">
+    <input type="radio" id="manha" name="turno" value="manha">
     <label for="manha">Manhã</label>
 
-    <input type="radio" id="tarde" name="turno">
+    <input type="radio" id="tarde" name="turno" value="tarde">
     <label for="tarde">Tarde</label>
 
-    <input type="radio" id="noite" name="turno">
+    <input type="radio" id="noite" name="turno" value="noite">
     <label for="noite">Noite</label><br><br>
 
     <button type="submit">Enviar Cadastro</button>
@@ -1054,18 +1058,18 @@
 </head>
 <body>
 
-  <center>
+  <main>
     <h1><em>Currículo<br>Jovem Aprendiz</em></h1>
     <h2>Zé da Manga da Silva</h2>
     
-    <h3>Objetivo Profissional (a disposição da empresa)</h3>
+    <h3>Objetivo Profissional (à disposição da empresa)</h3>
     <p>- Ser atendente, ajudante geral ou auxiliar de produção</p>
     
     <h3>Experiência</h3>
     <p>- Nenhuma experiência em mercado de trabalho</p>
     
     <h2>Formação</h2>
-    <p>- Cursando o 2°ano do Ensino Médii a tarde (com a possibilidade da troca de horário).</p>
+    <p>- Cursando o 2º ano do Ensino Médio a tarde (com a possibilidade da troca de horário).</p>
     
     <h3>Cursos/Habilidades/Conhecimentos</h3>
     
@@ -1078,11 +1082,10 @@
     <h3>Contato</h3>
     
     <ul>
-      <li>19-989608960</li>
-      <li>19-989604989</li>
-      <li>84ng12z@gmail.com</li>
+      <li>Telefone fictício: (19) 00000-0000</li>
+      <li>E-mail fictício: exemplo@email.com</li>
     </ul>
-  </center>
+  </main>
   
 </body>
 </html>
@@ -1101,7 +1104,7 @@
 <body>
 
   <h1>Escola Técnica Nova Geração</h1>
-  <p><strong>Apresentação: </strong>A Escola Ténica Nova Geração oferece cursos voltados para tecnologia e preparação profissional dos alunos.</p>
+  <p><strong>Apresentação: </strong>A Escola Técnica Nova Geração oferece cursos voltados para tecnologia e preparação profissional dos alunos.</p>
 
   <h4>Cursos</h4>
   
@@ -1128,7 +1131,7 @@
   <ul>
     <li>Desenvolvimento de Sistemas - 13:30 às 17:30</li>
     <li>Administração - 08:00 às 12:00</li>
-    <li>Redes de Comoutadores - 13:30 às 17:30</li>
+    <li>Redes de Computadores - 13:30 às 17:30</li>
     <li>Eletrônica - 18:30 às 22:30</li>
     <li>Design Gráfico - 08:00 às 12:00</li>
   </ul>
@@ -1183,24 +1186,24 @@
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" placeholder="Ex: João da Silva"id="nome"><br><br>
+    <input type="text" placeholder="Ex: João da Silva" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" placeholder="Ex: joão@email.com" id="email"><br><br>
+    <input type="email" placeholder="Ex: joão@email.com" id="email" name="email"><br><br>
 
     <label for="ass">Assunto:</label>
-    <input type="text" placeholder="Informações sobre o curso de interesse" id="ass"><br><br>
+    <input type="text" placeholder="Informações sobre o curso de interesse" id="ass" name="ass"><br><br>
     
-    <label for="msg">Mensagem</label>
-    <textarea id="mensagem"></textarea><br><br>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem"></textarea><br><br>
     
     <button type="submit">Enviar mensagem</button>
   </form>
 
   <h5><mark>Links</mark></h5>
 
-  <a href="https://www.google.com/url?opi=89978449&q=https://www.instagram.com/senai_nacional/%3Fhl%3Dpt&sa=U&ved=2ahUKEwiYt7iuu-eXAxWhkJUCHUirB_4QFnoECCQQAQ&usg=AOvVaw1dx2sP4eL6PCzNOzLlNdXy">Instagram</a>
-  <a href="https://www.google.com/url?opi=89978449&q=https://www.facebook.com/senainacional/&sa=U&ved=2ahUKEwiIjcLNu-eXAxWrpZUCHX6fLwEQFnoECGEQAQ&usg=AOvVaw2oGkjhh9xZuBtp8pg_mhZo">Facebook</a>
+  <a href="https://www.instagram.com/senai_nacional/">Instagram</a>
+  <a href="https://www.facebook.com/senainacional/">Facebook</a>
   
 </body>
 </html>
@@ -1261,7 +1264,7 @@
 
   <h4>Especificações do TechZone X1</h4>
 
-  <table border="12">
+  <table>
     <tr>
       <th>Componentes</th>
       <th>Modelo</th>
@@ -1329,10 +1332,10 @@
 
   <form>
     <label for="nome"><strong>Nome:</strong></label>
-    <input type="text" placeholder="Digite seu nome" id="nome"><br><br>
+    <input type="text" placeholder="Digite seu nome" id="nome" name="nome"><br><br>
 
     <label for="email"><strong>E-mail:</strong></label>
-    <input type="email" placeholder="Digite seu e-mail" id="email"><br><br>
+    <input type="email" placeholder="Digite seu e-mail" id="email" name="email"><br><br>
 
     <strong>Produto de Interesse</strong><br><br>
 
@@ -1395,7 +1398,7 @@
     <li>Comunicação</li>
   </ul><hr>
 
-  <table border="8">
+  <table>
     <tr>
       <th>Competição</th>
       <th>Região</th>
@@ -1437,10 +1440,10 @@
 
   <form>
     <label for="nome">Nome:</label>
-    <input type="text" placeholder="Digite seu nome" id="nome"><br><br>
+    <input type="text" placeholder="Digite seu nome" id="nome" name="nome"><br><br>
 
     <label for="email">E-mail:</label>
-    <input type="email" placeholder="Digite seu e-mail" id="email"><br><br>
+    <input type="email" placeholder="Digite seu e-mail" id="email" name="email"><br><br>
 
     <strong>Time favorito:</strong><br><br>
 
@@ -1464,16 +1467,16 @@
 
     <strong>Competição favorita:</strong><br><br>
 
-    <input type="checkbox" id="brasileirao" value="brasileirao">
+    <input type="checkbox" id="brasileirao" value="brasileirao" name="competicoes">
     <label for="brasileirao">Brasileirão</label>
 
-    <input type="checkbox" id="copa" value="copa">
+    <input type="checkbox" id="copa" value="copa" name="competicoes">
     <label for="copa">Copa do Mundo</label>
 
-    <input type="checkbox" id="cl" value="cl">
+    <input type="checkbox" id="cl" value="cl" name="competicoes">
     <label for="cl">Champions League</label>
 
-    <input type="checkbox" id="l" value="l">
+    <input type="checkbox" id="l" value="l" name="competicoes">
     <label for="l">Libertadores</label><br><br>
 
     <button type="submit">Enviar opinião</button>
