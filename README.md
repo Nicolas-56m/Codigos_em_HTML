@@ -1207,7 +1207,159 @@
 ### 24-) Página completa. Crie uma página sobre qualquer assunto que você quiser. Usar todas as tags anteriores.
 
 ```HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechZone</title>
+</head>
+<body>
 
+  <h1>TechZone</h1>
+  <p>Tecnologia para jogar, estudar e trabalhar.</p>
+
+  <h2>Sobre a TechZone</h2>
+
+  <ul>
+    <li>A TechZone vende computadores, peças e acessórios para jogos, estudos e trabalho.</li>
+  </ul><hr>
+
+  <h3>PC Gamer TechZone X1 em <mark>destaque</mark></h3>
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRcifdrwNZuCscE8_2HHlUUGaHkxINiS74NB61XBHt0w&s=10" 
+    alt="PC Gamer"
+    width="400">
+
+  <p>
+    <strong>Preço:</strong>
+    <del>De: R$ 5.199,99</del><br>
+    <strong>Por: </strong>R$ 4.599,00
+  </p><hr>
+
+  <h4>Componentes do PC</h4>
+
+  <ul>
+    <li>Ryzen 5 7600</li>
+    <li>Radeon RX 7600</li>
+    <li>16 GB de memória RAM</li>
+    <li>Placa-mãe A620</li>
+    <li>Fonte de 650W</li>
+  </ul><hr>
+
+  <h4>Como comprar</h4>
+
+  <ol>
+    <li>Escolha o produto</li>
+    <li>Confira as especificações</li>
+    <li>Preencha os dados</li>
+    <li>Envie o pedido</li>
+    <li>Aguarde a confirmação da loja</li>
+  </ol><hr>
+
+  <h4>Especificações do TechZone X1</h4>
+
+  <table border="12">
+    <tr>
+      <th>Componentes</th>
+      <th>Modelo</th>
+      <th>Informação</th>
+    </tr>
+
+    <tr>
+      <td>Processador</td>
+      <td>Ryzen 5 7600</td>
+      <td>6 núcleos/12 threads</td>
+    </tr>
+
+    <tr>
+      <td>Placa de vídeo</td>
+      <td>Radeon RX 7600</td>
+      <td>8 GB</td>
+    </tr>
+
+    <tr>
+      <td>Memória RAM</td>
+      <td>DDR5</td>
+      <td>16 GB</td>
+    </tr>
+
+    <tr>
+      <td>Armazenamento</td>
+      <td>SSD NVMe</td>
+      <td>1 TB</td>
+    </tr>
+
+    <tr>
+      <td>Placa-mãe</td>
+      <td>A620</td>
+      <td>AM5</td>
+    </tr>
+
+    <tr>
+      <td>Fonte</td>
+      <td>650W</td>
+      <td>80 Plus</td>
+    </tr>
+  </table><hr>
+
+  <h3>Outros produtos da loja</h3>
+
+  <ul>
+    <li>Monitor Gamer 24"</li>
+    <li>Teclado mecânico</li>
+    <li>Mouse Gamer</li>
+    <li>Headset</li>
+    <li>SSD NVMe</li>
+    <li>Memória RAM</li>
+  </ul><hr>
+
+  <h3>Conheça mais sobre hardware</h3>
+
+  <p>
+    Consulte um site especializado em tecnologia e hardware.
+    <strong>Link parceiro:</strong>
+  </p>
+
+  <a href="https://www.techtudo.com.br/">TechTudo</a><hr>
+
+  <h3>Entre em contato conosco através do formulário abaixo:</h3>
+
+  <form>
+    <label for="nome"><strong>Nome:</strong></label>
+    <input type="text" placeholder="Digite seu nome" id="nome"><br><br>
+
+    <label for="email"><strong>E-mail:</strong></label>
+    <input type="email" placeholder="Digite seu e-mail" id="email"><br><br>
+
+    <strong>Produto de Interesse</strong><br><br>
+
+    <input type="radio" name="p" id="pc" value="pc">
+    <label for="pc">PC Gamer TechZone X1</label>
+
+    <input type="radio" name="p" id="mg" value="mg">
+    <label for="mg">Monitor Gamer 24"</label>
+
+    <input type="radio" name="p" id="tm" value="tm">
+    <label for="tm">Teclado mecânico</label>
+
+    <input type="radio" name="p" id="mog" value="mog">
+    <label for="mog">Mouse Gamer</label>
+
+    <input type="radio" name="p" id="h" value="h">
+    <label for="h">Headset</label>
+
+    <input type="radio" name="p" id="ssd" value="ssd">
+    <label for="ssd">SSD NVMe</label>
+
+    <input type="radio" name="p" id="mr" value="mr">
+    <label for="mr">Memória RAM</label><br><br>
+
+    <button type="submit">Enviar mensagem</button>
+  </form>
+
+</body>
+</html>
 ```
 
 ### 25-) Agora faça uma página inteira sozinho. De qualquer tema, com as tags utilizadas.
