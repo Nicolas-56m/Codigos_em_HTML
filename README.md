@@ -433,6 +433,10 @@
     <input type="date" id="nascimento"><br><br>
 
     <button type="submit">Enviar</button>
+  </form>
+  
+</body>
+</html>
 ```
 
 ### 14-) Escolhas. Pegue o formulário do exercício 13 e acrescente: Sexo. Utilize rádio. Linguagens que você conhece: utilize checkbox,  estado: utilize um ```<select>``` com pelo menos 5 estados.
